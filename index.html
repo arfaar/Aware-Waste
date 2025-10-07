@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> 🖥 Home | AWARE WASTE</title>
+  </head>
+  <body>
+    
+    <!-- ----------------------------------Nav bar------------------ -->
+    <header>
+      <nav class="header-nav">
+        <div class="header-logo">
+          <a href="index.html" class="logo"> <h4> AWARE WASTE 💻</h4></a>
+          <div class="header-logo-overlay"></div>
+        </div>
+
+        <ul class="header-menu">
+          <li> <a href="about.html"> About </a></li>
+          <li> <a href="solutions.html"> Solutions </a></li>
+          <li> <a href="quiz.html"> Quiz </a></li>
+          <li> <a href="resources.html"> Resources </a></li>
+          <li> <a href="products.html"> Products </a></li>
+          <li> <a href="contact.html"> Contact </a></li> 
+
+    
+        <ul class="header-menu-mobile">
+          <li>
+            <img src="Pictures/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ----------------------Home Page Content-------------------------- -->
+    <section class="home-main">
+      <div class="home-main-image">
+        <img 
+          src="Pictures/e-waste dustbin.png"
+          alt="sushi"
+        />
+        <div class="home-main-image-overlay"></div>
+      </div>
+
+      <div class="home-content">
+        <div class="home-content-info">
+          <h1> Feel the feeling of saving nature </h1>
+          <p> Learn about E-waste and contribute for a sustainable future </p>
+
+          <div class="home-content-buttons">
+            <button class="home-content-button-learn"> <a href = "solutions.html"> Learn More </a> </button>
+          </div>
+        </div>
+
+        <div class="home-content-achievement">
+          <div class="home-content-devices-number flex-center">
+            <h4>7<span>00+</span></h4>
+            <p> Devices Recycled </p>
+          </div>
+
+          <div class="home-content-review">
+            <img src="Pictures/user.png" alt="user" />
+            <p>"The services provided is very nice and I choose Aware Waste as my medium to 
+                recycle my e-waste"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------Description of services concise manner------------------ -->
+    <section class="action flex-center" id="services">
+        <h2 data-aos="flip-down">
+        E-waste is harming our 🌏
+        </h2>
+        <!-- <video width="320" height="240" controls> -->
+        <video autoplay muted controls>
+            <source src="Pictures/E-waste-home-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          <br/>
+          <br/>
+      </section>
+
+    <!-- -------------------------------------Newsletter Content------------------ -->
+    <section class="newsletter flex-center" id="services">
+      <h2 data-aos="flip-down">
+       Want to know more <br/>
+       about E-waste ?
+      </h2>
+      <p> Sign up for the weekly Aware Waste newsletter. Informative content worth your time straight to your inbox
+       </p>
+
+      <div class="newsletter-form">
+        <input type="text" id= "home-email" placeholder="Enter your email address"/>
+        <button onClick = "showSubscriberThanks()">Get Started</button>
+      </div>
+    </section>
+
+    <!-- ---------------------------------Footer Content----------------------------- -->
+    <footer class="footer flex-between">
+      <h3 class="footer-logo">
+        <span>Aware</span>waste
+      </h3>
+      <p class="footer-tag"> &copy; Aware Waste 2023 | Designed and Developed By Arfa Abdur Rahim 💻</p>
+
+      <ul class="footer-social">
+        <li class="flex-center">
+          <img src="Pictures/facebook.svg" alt="facebook" />
+        </li>
+        <li class="flex-center">
+          <img src="Pictures/instagram.svg" alt="instagram" />
+        </li>
+        <li class="flex-center">
+          <img src="Pictures/twitter.svg" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
