@@ -34,7 +34,7 @@ However, I was accustomed to HTML and by following few tutorials, I was able to 
 Lastly, I was able to meet the client and user requirements majorly, as they were the key priorities to be incorporated within the website. 
 
 
-I will stop here for the sake of your eyesight, you can checkout the rest in Vercel 
+I will stop here for the sake of your eyesight, you can checkout the rest in Vercel https://aware-waste.vercel.app/ 
 
 
 
